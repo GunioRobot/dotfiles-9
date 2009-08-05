@@ -19,3 +19,7 @@ Host vcm-master
 Host vcm1
   HostName ec2-67-202-35-215.compute-1.amazonaws.com
   User root
+
+Host desktop
+  HostName ijonas-desktop.vamosa.com
+  User ijonas
