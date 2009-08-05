@@ -1,0 +1,21 @@
+Host rf1
+  HostName ec2-75-101-167-252.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/deploy_id_rsa
+  User deploy
+  
+Host rf2
+  HostName ec2-174-129-210-69.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/deploy_id_rsa
+  User deploy
+
+Host rails-master
+  HostName ec2-174-129-93-249.compute-1.amazonaws.com
+  User root
+
+Host vcm-master
+  HostName ec2-75-101-237-134.compute-1.amazonaws.com
+  User root
+
+Host vcm1
+  HostName ec2-67-202-35-215.compute-1.amazonaws.com
+  User root
