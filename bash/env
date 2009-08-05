@@ -8,14 +8,17 @@ export TC_HOME=$HOME/java/terracotta
 export JBOSS_HOME=$HOME/code/jboss
 export ANT_HOME=$HOME/java/ant
 
-if [ `uname` == Linux ];
+if [ `uname` == 'Linux' ];
 then
-	export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
+	export JAVA_HOME=/usr/lib/jvm/java-6-sun
+	alias ls='ls --color=auto'
 else
 	export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
 	export MANPATH=/opt/local/share/man:$MANPATH
 	export EDITOR="mate -w"
-	export JAVA_HOME=/usr/lib/jvm/java-6-sun
+	export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home
+	export TERM=xterm-color
+	alias ls='ls -G'
 fi
 
 export PATH=$HOME/bin:$JAVA_HOME/bin:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH

@@ -10,6 +10,8 @@ alias puom='git push origin master'
 alias plom='git pull origin master'
 alias puod='git push origin development'
 alias plod='git pull origin development'
+alias sgi='sudo gem install'
+alias sagi='sudo apt-get install'
 
 alias mysqlstart='sudo /opt/local/bin/mysqld_safe5'
 alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
