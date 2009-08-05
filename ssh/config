@@ -10,14 +10,17 @@ Host rf2
 
 Host rails-master
   HostName ec2-174-129-93-249.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
 Host vcm-master
   HostName ec2-75-101-237-134.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
 Host vcm1
   HostName ec2-67-202-35-215.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
 Host desktop
