@@ -6,6 +6,11 @@ alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
+alias puom='git push origin master'
+alias plom='git pull origin master'
+alias puod='git push origin development'
+alias plod='git pull origin development'
+
 alias mysqlstart='sudo /opt/local/bin/mysqld_safe5'
 alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
