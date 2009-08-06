@@ -7,6 +7,7 @@ export M2_HOME=$HOME/java/maven
 export TC_HOME=$HOME/java/terracotta
 export JBOSS_HOME=$HOME/code/jboss
 export ANT_HOME=$HOME/java/ant
+export GWT_HOME=$HOME/java/gwt
 
 if [ `uname` == 'Linux' ];
 then
@@ -21,6 +22,6 @@ else
 	alias ls='ls -G'
 fi
 
-export PATH=$HOME/bin:$JAVA_HOME/bin:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH
+export PATH=$HOME/bin:$JAVA_HOME/bin:$GWT_HOME:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH
 
 
