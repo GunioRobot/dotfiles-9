@@ -23,5 +23,5 @@ else
 	export TERM=xterm-color
 	alias ls='ls -G'
 fi
-
+export JDK_HOME=$JAVA_HOME
 export PATH=$GLASSFISH_HOME/bin:$HOME/bin:$GWT_HOME:$JAVA_HOME/bin:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH
