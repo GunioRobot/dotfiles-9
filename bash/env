@@ -3,6 +3,7 @@ export EC2_PRIVATE_KEY=$HOME/.vamosa-ec2/pk-22XREPVQNL5A6NM6EON5SRFKFWNZ5I35.pem
 export EC2_CERT=$HOME/.vamosa-ec2/cert-22XREPVQNL5A6NM6EON5SRFKFWNZ5I35.pem
 
 export SCALA_HOME=$HOME/java/scala
+export AKKA_HOME=$HOME/code/akka
 export M2_HOME=$HOME/java/maven
 export TC_HOME=$HOME/java/terracotta
 export JBOSS_HOME=$HOME/code/jboss
