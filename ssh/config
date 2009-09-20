@@ -26,3 +26,8 @@ Host vcm1
 Host desktop
   HostName ijonas-desktop.vamosa.com
   User ijonas
+  
+Host gems
+  HostName gems.vamosa.com
+  IdentityFile ~/.ssh/id_gems_rsa
+  User root

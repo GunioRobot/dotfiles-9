@@ -34,3 +34,5 @@ alias b2='bzip2 -d'
 alias b2z='bzip2 -z'
 
 alias ss="./script/server"
+
+alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"
