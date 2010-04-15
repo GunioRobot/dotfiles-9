@@ -14,13 +14,11 @@ alias sgi='sudo gem1.8 install'
 alias sagi='sudo apt-get install'
 alias ll='ls -l'
 alias lal='ls -al'
+alias lh='ls -lh'
 
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
 alias jss='jruby -S script/server'
-
-alias mysqlstart='sudo /opt/local/bin/mysqld_safe5'
-alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
 alias ccnf='cd ~/code/cnf'
 alias cjboss='cd ~/code/jboss-git'
@@ -33,6 +31,15 @@ alias tbz='tar -zxvf'
 alias b2='bzip2 -d'
 alias b2z='bzip2 -z'
 
+alias nginx-start="sudo launchctl load -w /Library/LaunchDaemons/org.macports.nginx.plist"
+alias nginx-stop="sudo launchctl unload /Library/LaunchDaemons/org.macports.nginx.plist"
+alias nginx-restart="sudo launchctl unload /Library/LaunchDaemons/org.macports.nginx.plist &amp;&amp; sudo launchctl load -w /Library/LaunchDaemons/org.macports.nginx.plist"
+alias nginx-reload="sudo /opt/local/sbin/nginx -s reload"
+
+
 alias ss="./script/server"
+
+alias mysqlstart="sudo /usr/local/mysql/bin/mysqld_safe --datadir=/usr/local/mysql/data"
+alias mysqlstop="/usr/local/mysql/bin/mysqladmin -uroot shutdown"
 
 alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"

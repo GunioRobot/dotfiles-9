@@ -28,6 +28,10 @@ Host desktop
   User ijonas
   
 Host gems
-  HostName gems.vamosa.com
-  IdentityFile ~/.ssh/id_gems_rsa
+  HostName ec2-67-202-36-48.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
   User root
+
+Host den
+  HostName 67.23.12.147
+  User ijonas
