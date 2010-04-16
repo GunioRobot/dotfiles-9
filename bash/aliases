@@ -43,3 +43,8 @@ alias mysqlstart="sudo /usr/local/mysql/bin/mysqld_safe --datadir=/usr/local/mys
 alias mysqlstop="/usr/local/mysql/bin/mysqladmin -uroot shutdown"
 
 alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"
+
+alias mongostart="sudo /usr/local/bin/mongod --fork --logpath /var/log/mongodb.log --logappend --dbpath /var/lib/mongodb/"
+alias mongostop="/usr/local/bin/mongo --eval \"db.shutdownServer()\" admin"
+
+
