@@ -8,6 +8,11 @@ Host rf2
   IdentityFile ~/.ssh/deploy_id_rsa
   User deploy
 
+Host cnfdbmaster
+  Hostname ec2-75-101-242-54.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
 Host rails-master
   HostName ec2-174-129-93-249.compute-1.amazonaws.com
   IdentityFile ~/.ssh/cnf_deploy.key
@@ -28,10 +33,16 @@ Host desktop
   User ijonas
   
 Host gems
-  HostName ec2-67-202-36-48.compute-1.amazonaws.com
+  HostName ec2-75-101-174-20.compute-1.amazonaws.com
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
 Host den
   HostName 67.23.12.147
   User ijonas
+
+Host hpa-apps
+  HostName ec2-67-202-57-58.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+

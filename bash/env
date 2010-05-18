@@ -16,7 +16,7 @@ export RACK_ENV=development
 
 if [ `uname` == 'Linux' ];
 then
-	export JAVA_HOME=/usr/lib/jvm/java-6-sun
+	export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
 	alias ls='ls --color=auto'
 else
 	export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
