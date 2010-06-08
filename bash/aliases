@@ -1,7 +1,7 @@
 alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
-alias gd='git diff | mate'
+alias gd='git difftool'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
@@ -46,5 +46,8 @@ alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"
 
 alias mongostart="sudo /usr/local/bin/mongod --fork --logpath /var/log/mongodb.log --logappend --dbpath /var/lib/mongodb/"
 alias mongostop="/usr/local/bin/mongo --eval \"db.shutdownServer()\" admin"
+
+alias redisstart="sudo redis-server /etc/redis.conf"
+alias redisstop="sudo /usr/bin/killall -9 redis-server"
 
 

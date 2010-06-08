@@ -1,12 +1,42 @@
 Host rf1
-  HostName ec2-75-101-167-252.compute-1.amazonaws.com
+  HostName fe1.vamosa.com
   IdentityFile ~/.ssh/deploy_id_rsa
   User deploy
   
 Host rf2
-  HostName ec2-174-129-210-69.compute-1.amazonaws.com
+  HostName fe2.vamosa.com
   IdentityFile ~/.ssh/deploy_id_rsa
   User deploy
+
+Host rf1root
+  HostName fe1.vamosa.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host rf2root
+  HostName fe2.vamosa.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host stage1
+  HostName fe3.vamosa.com
+  IdentityFile ~/.ssh/deploy_id_rsa
+  User deploy
+
+Host stage2
+  HostName fe4.vamosa.com
+  IdentityFile ~/.ssh/deploy_id_rsa
+  User deploy
+
+Host stage1root
+  HostName fe3.vamosa.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host stage2root
+  HostName fe4.vamosa.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
 
 Host cnfdbmaster
   Hostname ec2-75-101-242-54.compute-1.amazonaws.com
