@@ -76,3 +76,14 @@ Host hpa-apps
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
+Host redmast
+  HostName 75.101.195.230
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host redslave
+  HostName 174.129.106.102
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+
