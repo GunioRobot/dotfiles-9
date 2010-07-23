@@ -86,4 +86,14 @@ Host redslave
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
+Host mongom
+  HostName 174.129.187.228
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host mongos
+  HostName 204.236.201.224
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
 
