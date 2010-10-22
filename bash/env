@@ -14,6 +14,9 @@ export GLASSFISH_HOME=$HOME/java/glassfish
 export TMP=$HOME/tmp
 export RACK_ENV=development
 
+export TWITTER_TOKEN=2AOBKALTE8Zpdmc0Cpxw
+export TWITTER_SECRET=8cQqweazslaXFqWW2ZuCNM5mu7S7FH68MiHRVtiNzA
+
 if [ `uname` == 'Linux' ];
 then
 	export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
@@ -27,6 +30,7 @@ else
 	alias ls='ls -G'
 fi
 export JDK_HOME=$JAVA_HOME
-export PATH=$GLASSFISH_HOME/bin:$HOME/bin:$GWT_HOME:$JAVA_HOME/bin:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH
+export NODE_PATH=/usr/local/lib/node
+export PATH=/usr/local/share/npm/bin:$HOME/bin:$JAVA_HOME/bin:$TC_HOME/bin:$M2_HOME/bin:$SCALA_HOME/bin:$ANT_HOME/bin:$EC2_HOME/bin:$PATH
 
 if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi

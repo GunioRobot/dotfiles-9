@@ -49,5 +49,3 @@ alias mongostop="/usr/local/bin/mongo --eval \"db.shutdownServer()\" admin"
 
 alias redisstart="sudo redis-server /etc/redis.conf"
 alias redisstop="sudo /usr/bin/killall -9 redis-server"
-
-

@@ -1,3 +1,8 @@
+Host chef
+  HostName chef.pixelballistics.com
+  IdentityFile ~/.ssh/id_rsa
+  User root
+
 Host rf1
   HostName fe1.vamosa.com
   IdentityFile ~/.ssh/deploy_id_rsa
