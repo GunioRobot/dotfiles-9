@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 filetype on
 set nocompatible
 
@@ -16,9 +19,14 @@ syntax enable
 set cf
 set clipboard+=unnamed
 set hidden
+set number
+set vb t_vb=
+set ts=2 sts=2 sw=2 expandtab
 set history=1000
 set autowrite
 set ruler
 set nu
 set nowrap
 set timeoutlen=250
+
+syntax on
