@@ -3,6 +3,11 @@ Host chef
   IdentityFile ~/.ssh/id_rsa
   User root
 
+Host chefv
+  HostName chef.vamosacloud.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
 Host rf1
   HostName fe1.vamosa.com
   IdentityFile ~/.ssh/deploy_id_rsa
