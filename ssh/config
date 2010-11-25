@@ -3,6 +3,11 @@ Host chef
   IdentityFile ~/.ssh/id_rsa
   User root
 
+Host www
+  HostName blogs.pixelballistics.com
+  IdentityFile ~/.ssh/id_rsa
+  User root
+
 Host chefv
   HostName chef.vamosacloud.com
   IdentityFile ~/.ssh/cnf_deploy.key

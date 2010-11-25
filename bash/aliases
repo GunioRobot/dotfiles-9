@@ -45,8 +45,10 @@ alias mysqlstop="/usr/local/mysql/bin/mysqladmin -uroot shutdown"
 alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"
 
 alias mongostart="sudo /usr/local/bin/mongod --fork --logpath /var/log/mongodb.log --logappend --dbpath /var/lib/mongodb/"
+alias mongoteststart="sudo /usr/local/bin/mongod --fork --logpath /var/log/mongotestdb.log --logappend --port 27018 --dbpath /var/lib/mongotestdb/"
 alias mongorepair="sudo /usr/local/bin/mongod --dbpath /var/lib/mongodb/ --repair"
 alias mongostop="/usr/local/bin/mongo --eval \"db.shutdownServer()\" admin"
+alias mongoteststop="/usr/local/bin/mongo --port 27018 --eval \"db.shutdownServer()\" admin"
 
 alias redisstart="sudo redis-server /etc/redis.conf"
 alias redisstop="sudo /usr/bin/killall -9 redis-server"
