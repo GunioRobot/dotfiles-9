@@ -13,6 +13,7 @@ export GWT_HOME=$HOME/java/gwt
 export GLASSFISH_HOME=$HOME/java/glassfish
 export TMP=$HOME/tmp
 export RACK_ENV=development
+export NODE_PATH=$HOME/.node_libraries
 
 export TWITTER_TOKEN=2AOBKALTE8Zpdmc0Cpxw
 export TWITTER_SECRET=8cQqweazslaXFqWW2ZuCNM5mu7S7FH68MiHRVtiNzA

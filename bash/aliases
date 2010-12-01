@@ -51,6 +51,7 @@ alias mongostop="/usr/local/bin/mongo --eval \"db.shutdownServer()\" admin"
 alias mongoteststop="/usr/local/bin/mongo --port 27018 --eval \"db.shutdownServer()\" admin"
 
 alias redisstart="sudo redis-server /etc/redis.conf"
+alias redisteststart="sudo redis-server /etc/redistest.conf"
 alias redisstop="sudo /usr/bin/killall -9 redis-server"
 
 function mvim { /usr/local/Cellar/macvim/HEAD/MacVim.app/Contents/MacOS/Vim -g $*; }

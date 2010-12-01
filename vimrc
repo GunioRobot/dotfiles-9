@@ -29,6 +29,8 @@ set ruler
 set nu
 set nowrap
 set timeoutlen=250
+set guifont=Meslo\ LG\ M\ DZ:h13
+
 
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
