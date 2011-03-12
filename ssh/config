@@ -3,23 +3,33 @@ Host chef
   IdentityFile ~/.ssh/id_rsa
   User root
 
+Host www
+  HostName blogs.pixelballistics.com
+  IdentityFile ~/.ssh/id_rsa
+  User root
+
+Host chefv
+  HostName chef.vamosacloud.com
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
 Host rf1
-  HostName fe1.vamosa.com
+  HostName 75.101.167.252
   IdentityFile ~/.ssh/deploy_id_rsa
   User deploy
   
 Host rf1root
-  HostName fe1.vamosa.com
+  HostName 75.101.167.252
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
   
 Host rf2
-  HostName fe2.vamosa.com
+  HostName 174.129.210.69
   IdentityFile ~/.ssh/deploy_id_rsa
   User deploy
 
 Host rf2root
-  HostName fe2.vamosa.com
+  HostName 174.129.210.69
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
@@ -68,7 +78,7 @@ Host desktop
   User ijonas
   
 Host gems
-  HostName ec2-75-101-174-20.compute-1.amazonaws.com
+  HostName gems.vamosa.com
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 

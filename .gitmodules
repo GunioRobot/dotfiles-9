@@ -7,3 +7,6 @@
 [submodule "vim/bundle/snipmate"]
 	path = vim/bundle/snipmate
 	url = http://github.com/msanders/snipmate.vim.git
+[submodule "node_libraries/node-static"]
+	path = node_libraries/node-static
+	url = https://github.com/cloudhead/node-static.git
