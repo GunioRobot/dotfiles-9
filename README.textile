@@ -1,0 +1,10 @@
+h1. Useful Scripts
+
+Some useful scripts used by Ijonas Kisselbach
+
+Use at your own peril.
+
+To initiate
+<pre>
+mkdir ~/bin && curl -s http://github.com/xvzf/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt && chmod 755 bin/configure_for_ijonas && bin/configure_for_ijonas
+</pre>

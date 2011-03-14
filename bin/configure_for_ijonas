@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# configures the shell environment for Ijonas' personalised settings
+#
+# Assumes Ubuntu - Use at your own peril
+#
+# (c) Ijonas Kisselbach 2009, 2010, 2011
+#
+sudo apt-get install git-core
+mkdir -p ~/bin/dotfiles
+git clone git://github.com/ijonas/dotfiles.git ~/bin/dotfiles
+curl -s https://github.com/ijonas/dotfiles/raw/master/home-bashrc > ~/.bashrc
+ln -s ~/bin/dotfiles/rvmrc ~/.rvmrc
+ln -s ~/bin/dotfiles/.vim ~/.vim
+ln -s ~/bin/dotfiles/.vimrc ~/.vimrc
