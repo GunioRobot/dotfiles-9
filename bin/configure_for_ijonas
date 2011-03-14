@@ -12,5 +12,5 @@ curl -s https://github.com/xvzf/vcprompt/raw/master/bin/vcprompt > ~/bin/vcpromp
 git clone git://github.com/ijonas/dotfiles.git ~/bin/dotfiles
 curl -s https://github.com/ijonas/dotfiles/raw/master/home-bashrc > ~/.bashrc
 ln -s ~/bin/dotfiles/rvmrc ~/.rvmrc
-ln -s ~/bin/dotfiles/.vim ~/.vim
-ln -s ~/bin/dotfiles/.vimrc ~/.vimrc
+ln -s ~/bin/dotfiles/vim ~/.vim
+ln -s ~/bin/dotfiles/vimrc ~/.vimrc
