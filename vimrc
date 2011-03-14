@@ -1,7 +1,7 @@
+filetype off
 call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+filetype plugin indent on
 
-filetype on
 set nocompatible
 
 set viminfo^=!
@@ -29,7 +29,6 @@ set ruler
 set nu
 set nowrap
 set timeoutlen=250
-set guifont=Meslo\ LG\ M\ DZ:h13
 
 
 if has("autocmd")
