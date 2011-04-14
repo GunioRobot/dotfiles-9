@@ -1,1 +1,1 @@
-:set guifont=Menlo\ LG\ M\ DZ:h13
+:set guifont=Monospace\ 10

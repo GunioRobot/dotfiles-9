@@ -1,0 +1,10 @@
+h1. Useful Scripts
+
+Some useful scripts used by Ijonas Kisselbach
+
+Use at your own peril.
+
+To initiate
+<pre>
+mkdir -p ~/bin && curl -s https://github.com/ijonas/dotfiles/raw/master/bin/configure_for_ijonas > ~/bin/configure_for_ijonas && chmod 755 bin/configure_for_ijonas && bin/configure_for_ijonas
+</pre>

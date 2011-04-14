@@ -92,12 +92,12 @@ Host hpa-apps
   User root
 
 Host redmast
-  HostName 75.101.195.230
+  HostName 67.202.63.233
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
 Host redslave
-  HostName 174.129.106.102
+  HostName 67.202.18.72
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
@@ -111,7 +111,12 @@ Host mongos
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
-Host cb1
-  HostName ec2-184-72-192-129.compute-1.amazonaws.com
-  IdentityFile ~/.ssh/caseblocks-deployment.pem
-  User ubuntu
+Host sqlmast
+  HostName 204.236.223.89
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
+
+Host sqlslave
+  HostName 174.129.91.245
+  IdentityFile ~/.ssh/cnf_deploy.key
+  User root
