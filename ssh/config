@@ -111,4 +111,7 @@ Host mongos
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
 
-
+Host cb1
+  HostName ec2-184-72-192-129.compute-1.amazonaws.com
+  IdentityFile ~/.ssh/caseblocks-deployment.pem
+  User ubuntu

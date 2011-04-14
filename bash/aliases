@@ -2,6 +2,7 @@ alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git difftool'
+alias glog='git log --pretty=oneline'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
@@ -15,6 +16,7 @@ alias sagi='sudo apt-get install'
 alias ll='ls -l'
 alias lal='ls -al'
 alias lh='ls -lh'
+alias glog="git log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'"
 
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
@@ -57,3 +59,8 @@ alias redisstop="sudo /usr/bin/killall -9 redis-server"
 function mvim { /usr/local/Cellar/macvim/HEAD/MacVim.app/Contents/MacOS/Vim -g $*; }
 
 function cssh { /usr/bin/ssh -i $HOME/.ssh/cnf_deploy.key root@$1; }
+
+function ccdn { /usr/bin/scp -i $HOME/.ssh/cnf_deploy.key root@$1:$2 $2;}
+function ccup { /usr/bin/scp -i $HOME/.ssh/cnf_deploy.key $1 root@$2:$1;}
+
+function zipdir { /usr/bin/tar -jcf $1.tar.bz2 $1/; }
