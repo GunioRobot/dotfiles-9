@@ -86,6 +86,10 @@ Host den
   HostName 67.23.12.147
   User ijonas
 
+Host home
+  HostName ijonas.is-a-geek.com
+  User ijonas
+
 Host hpa-apps
   HostName ec2-67-202-57-58.compute-1.amazonaws.com
   IdentityFile ~/.ssh/cnf_deploy.key
