@@ -124,3 +124,8 @@ Host sqlslave
   HostName 174.129.91.245
   IdentityFile ~/.ssh/cnf_deploy.key
   User root
+
+Host xbmc
+  HostName 192.168.1.5
+  User xbmc
+  IdentityFile ~/.ssh/id_rsa

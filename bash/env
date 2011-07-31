@@ -3,15 +3,9 @@ export PATH=$PATH:$EC2_HOME/bin
 export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
 export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
 
-export SCALA_HOME=$HOME/java/scala
-export AKKA_HOME=$HOME/code/akka
 export M2_HOME=$HOME/java/maven
-export TC_HOME=$HOME/java/terracotta
 export JBOSS_HOME=$HOME/code/jboss
 export ANT_HOME=$HOME/java/ant
-export GWT_HOME=$HOME/java/gwt
-#export JRUBY_HOME=$HOME/java/jruby-1.3.1
-export GLASSFISH_HOME=$HOME/java/glassfish
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
@@ -21,7 +15,8 @@ export TWITTER_SECRET=8cQqweazslaXFqWW2ZuCNM5mu7S7FH68MiHRVtiNzA
 
 if [ `uname` == 'Linux' ];
 then
-	export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
+	#export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
+  export JAVA_HOME=/usr/lib/jvm/java-6-sun
 	alias ls='ls --color=auto'
 else
 	export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
